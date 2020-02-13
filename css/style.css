@@ -1648,5 +1648,21 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .four-box-pan section p{ line-height:27px; font-weight:500; padding-top:5px; color:#5e5e64}
 
+.fh5co-card-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    /*border-radius: 0px;*/
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
 
 /*# sourceMappingURL=style.css.map */
