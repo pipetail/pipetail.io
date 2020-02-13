@@ -1,55 +1,679 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156564231-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156564231-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-  gtag('config', 'UA-156564231-1');
-</script>
+            gtag('config', 'UA-156564231-1');
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>pipetail.io | DevOps and Cloud Native consulting</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="pipetail.io - DevOps and Cloud Native consulting" />
+        <meta name="keywords" content="devops,cloud native,kubernetes,docker,ci/cd,google cloud platform,amazon web services,pipeline" />
+        <meta name="author" content="freehtml5.co" />
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!-- inspired with http://hanasvabova.cz/ -->
-<title>pipetail.io | DevOps and Cloud Native consulting</title>
+        <!-- 
+        //////////////////////////////////////////////////////
 
-<meta name="robots" content="index, follow">
-<meta name="description" content="pipetail.io - DevOps and Cloud Native consulting">
-<meta name="keywords" content="devops,cloud native,kubernetes,docker,ci/cd,google cloud platform,amazon web services,pipeline">.
+        FREE HTML5 TEMPLATE 
+        DESIGNED & DEVELOPED by FreeHTML5.co
 
-<link rel="stylesheet" href="./main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+        Website: 		http://freehtml5.co/
+        Email: 			info@freehtml5.co
+        Twitter: 		http://twitter.com/fh5co
+        Facebook: 		https://www.facebook.com/fh5co
 
-<script type="text/javascript" src="./jquery.min.js"></script>
-<script type="text/javascript">
-(function ($) {
-$.fn.vAlign = function() {
-	return this.each(function(i){
-	var h = $(this).height();
-	var oh = $(this).outerHeight();
-	var mt = (h + (oh - h)) / 2;
-	$(this).css("margin-top", "-" + mt + "px");
-	$(this).css("top", "50%");
-	$(this).css("position", "absolute");
-	});
-};
-})(jQuery);
+        //////////////////////////////////////////////////////
+        -->
 
-$(document).ready(function() {
-	$("#content").vAlign();
-});
-</script>
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:site_name" content=""/>
+        <meta property="og:description" content=""/>
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="" />
 
-</head>
-<body>
-	<div id="logo">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 
-	</div>
-	<div id="content" style="margin-top: -404px; top: 50%; position: absolute;">
-		<h1>Hi,<br>
-		We love automating stuff!<br>
-		<br>
-		<a href="mailto:contact@pipetail.io" title="Let&#39;s talk">Contact us.</a><br>
-	</div>
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="css/icomoon.css">
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="css/bootstrap.css">
 
-</body></html>
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <!-- Owl Carousel  -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Modernizr JS -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <div class="fh5co-loader"></div>
+
+        <div id="page">
+            <nav class="fh5co-nav" role="navigation">
+                <!--
+<div class="top">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-xs-12 text-right">
+                                                <p class="num">Call: +01 123 456 7890</p>
+                                                <ul class="fh5co-social">
+                                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                                                        <li><a href="#"><i class="icon-github"></i></a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                                </div>-->
+                <div class="top-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <div id="fh5co-logo"><a href="index.html"><span>|</span>tail</a></div>
+                            </div>
+                            <div class="col-xs-11 text-right menu-1">
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="#fh5co-testimonial">Customers</a></li>
+                                    <li><a href="#fh5co-explore">Products</a></li>
+                                    <li><a href="#fh5co-blog">Blog</a></li>
+                                    <!--<li><a href="#fh5co-project">Principles</a></li>-->
+                                    <li><a href="#fh5co-contact">Contact us</a></li>
+                                    <!--                                    <li class="has-dropdown">
+                                                                            <a href="blog.html">Blog</a>
+                                                                            <ul class="dropdown">
+                                                                                <li><a href="#">Web Design</a></li>
+                                                                                <li><a href="#">eCommerce</a></li>
+                                                                                <li><a href="#">Branding</a></li>
+                                                                                <li><a href="#">API</a></li>
+                                                                            </ul>
+                                                                        </li>-->
+                                    <!--<li><a href="contact.html">Contact</a></li>-->
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <header id="fh5co-header" class="fh5co-cover" role="banner" alt="Photo by Billy Huynh on Unsplash" style="background-image:url(images/bg_main.jpg);" data-stellar-background-ratio="0.5">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="display-t">
+                                <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                                    <h1>Don't waste engineering time on cloud toil</h1>
+                                    <h2>Say hey to pipetail!</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>Pipetail is no tale!</h2>
+                            <p>You are probably tired of all the bullshit - zero downtime, infrastructure on one click, kubernetes magic, 99.9999% SLA, you name it. We know the buzz. And we don’t follow it. </p>
+
+                            <p>Your business needs will be solved with the right kind of technology and tooling.
+                                Not with tools that are just trendy.</p>
+
+                            <p>We believe in great design! It is an investment that pays off.</p>
+
+                        </div>
+                    </div>
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <p><a class="btn btn-primary btn-lg btn-learn" href="#fh5co-contact">Get in touch</a>
+                                <!--<p><a class="btn btn-primary btn-lg btn-learn" href="#fh5co-blog">Our activity</a>-->
+                                <!--                                <a class="btn btn-primary btn-lg popup-vimeo btn-video" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i>Learn more</a></p>-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="fh5co-project">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                            <h2>What</h2>
+                            <p>Pipetail focuses on container workloads on Amazon Web Services and Google Cloud Platform.</p>
+                            <p>We provide consulting, implementation and workshops.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid proj-bottom">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                            <a href="#"><img src="images/bills.jpg" alt="Photo by Pepi Stojanovski on Unsplash" class="img-responsive">
+                                <h3>Cloud Cost Management</h3>
+                                <span>Detail</span>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                            <a href="#"><img src="images/infra.jpg" alt="Photo by Denys Nevozhai on Unsplash" class="img-responsive">
+                                <h3>Infrastructure Automation</h3>
+                                <span>Detail</span>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                            <a href="#"><img src="images/cicd.jpg" alt="Photo by Yancy Min on Unsplash" class="img-responsive">
+                                <h3>CI/CD</h3>
+                                <span>Detail</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="fh5co-testimonial" class="fh5co-bg-section">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                            <h2>Our clients</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="row animate-box">
+                                <div class="owl-carousel owl-carousel-fullwidth">
+                                    <div class="item">
+                                        <div class="testimony-slide active text-center">
+                                            <figure>
+                                                <img src="images/person_1.jpg" alt="user">
+                                            </figure>
+                                            <span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
+                                            <blockquote>
+                                                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimony-slide active text-center">
+                                            <figure>
+                                                <img src="images/person_2.jpg" alt="user">
+                                            </figure>
+                                            <span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+                                            <blockquote>
+                                                <p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="testimony-slide active text-center">
+                                            <figure>
+                                                <img src="images/person_3.jpg" alt="user">
+                                            </figure>
+                                            <span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+                                            <blockquote>
+                                                <p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="fh5co-counter" class="fh5co-counters">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="fh5co-counter js-counter" data-from="10" data-to="12" data-speed="5000" data-refresh-interval="100"></span>
+                            <span class="fh5co-counter-label">Happy clients</span>
+                        </div>
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="fh5co-counter js-counter" data-from="7" data-to="10" data-speed="5000" data-refresh-interval="100"></span>
+                            <span class="fh5co-counter-label">NPS</span>
+                        </div>
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="fh5co-counter js-counter" data-from="9" data-to="10" data-speed="10000" data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">employee NPS</span>
+                        </div>
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="fh5co-counter js-counter" data-from="0" data-to="11039" data-prefix="$ " data-speed="5000" data-refresh-interval="50"></span>
+                            <span class="fh5co-counter-label">saved on cloud billing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="fh5co-explore" class="fh5co-bg-section">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                            <h2>Our products</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fh5co-explore fh5co-explore1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-push-5 animate-box">
+                                <img class="img-responsive" src="images/cloudlint.jpg" alt="Photo by Carlos Muza on Unsplash">
+                            </div>
+                            <div class="col-md-4 col-md-pull-8 animate-box">
+                                <div class="mt">
+                                    <h3>CloudLint</h3>
+                                    <p>We know cloud is hard. And it might get expensive. It is not easy to understand how the cloud pricing works.</p>
+                                    <ul class="list-nav">
+                                        <li><i class="icon-check2"></i>Identify largest saving opportunities</li>
+                                        <li><i class="icon-check2"></i>Automated reports</li>
+                                        <li><i class="icon-check2"></i>AWS integration</li>
+                                    </ul>
+                                    <!--<p><a class="btn btn-primary btn-lg popup-vimeo btn-video" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i> Watch Video</a></p>-->
+                                    <p><a class="btn btn-primary btn-lg" href="#fh5co-contact">I'm interested</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--                <div class="fh5co-explore">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-8 col-md-pull-1 animate-box">
+                                                <img class="img-responsive" src="images/work_1.png" alt="work">
+                                            </div>
+                                            <div class="col-md-4 animate-box">
+                                                <div class="mt">
+                                                    <h3>CloudLint</h3>
+                                                    <div>
+                                                        <h4><i class="icon-user"></i>Real Project For Real Solutions</h4>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. </p>
+                                                    </div>
+                                                    <div>
+                                                        <h4><i class="icon-video2"></i>Real Project For Real Solutions</h4>
+                                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                                    </div>
+                                                                                        <div>
+                                                                                            <h4><i class="icon-shield"></i>Real Project For Real Solutions</h4>
+                                                                                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. </p>
+                                                                                        </div>
+                                                    <p><a class="btn btn-primary btn-lg popup-vimeo btn-video" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i> Watch Video</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
+            </div>
+
+            <div id="fh5co-project">
+                <!--<div id="fh5co-steps">-->
+                <div class="container">
+                    <div class="row animate-box"></div>
+                        <div class="row col-md-12 text-center fh5co-heading four-box-pan">
+                            <h2>Who is pipetail and what we <3</h2>
+                            <p>Pipetail is a team of guys and girls who are tired of all the bs around “corporate IT”.</p>
+                            <br>
+                            <!--<h3>Our principles, We <3</h3>-->
+                            <!--<br>-->
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-code-fork" aria-hidden="true"></i></figure>
+                                <p>Open source</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-code" aria-hidden="true"></i></figure>
+                                <p>Automating stuff</p> <br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-comments-o" aria-hidden="true"></i></figure>
+                                <p>Talk at meetups</p> <br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-edit" aria-hidden="true"></i></figure>
+                                <p>Write blogposts</p>
+                                <br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-heart" aria-hidden="true"></i></figure>
+                                <p>Honesty, transparency</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-lightbulb-o" aria-hidden="true"></i></figure>
+                                <p>One step ahead of the buzz</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-unlock" aria-hidden="true"></i></figure>
+                                <p>Vendor agnostic</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-users" aria-hidden="true"></i></figure>
+                                <p>Our customers</p> <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--                    <div class="row animate-box">
+                                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                                        <h3>Our principles</h3>                            
+                                    </div>
+            
+                                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                                        <a href="#"><img src="images/project-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                                            <h4>We love opensource</h4>
+                                            <span>Detail</span>
+                                        </a>
+                                    </div>
+            
+                                </div>-->
+            <!--
+                                <div class="row bs-wizard animate-box" style="border-bottom:0;">
+            
+                                    <div class="col-xs-3 bs-wizard-step complete">
+                                        <div class="text-center bs-wizard-stepnum"><h4>Step 1</h4></div>
+                                        <div class="progress"><div class="progress-bar"></div></div>
+                                        <a href="#" class="bs-wizard-dot"></a>
+                                        <div class="bs-wizard-info text-center"><p>Create A Free Course</p></div>
+                                    </div>
+            
+                                    <div class="col-xs-3 bs-wizard-step active"> complete 
+                                        <div class="text-center bs-wizard-stepnum"><h4>Step 2</h4></div>
+                                        <div class="progress"><div class="progress-bar"></div></div>
+                                        <a href="#" class="bs-wizard-dot"></a>
+                                        <div class="bs-wizard-info text-center"><p>Upload Content</p></div>
+                                    </div>
+            
+                                    <div class="col-xs-3 bs-wizard-step disabled"> complete 
+                                        <div class="text-center bs-wizard-stepnum"><h4>Step 3</h4></div>
+                                        <div class="progress"><div class="progress-bar"></div></div>
+                                        <a href="#" class="bs-wizard-dot"></a>
+                                        <div class="bs-wizard-info text-center"><p>Make Your Course Beautiful</p></div>
+                                    </div>
+            
+                                    <div class="col-xs-3 bs-wizard-step disabled"> active 
+                                        <div class="text-center bs-wizard-stepnum"><h4>Step 4</h4></div>
+                                        <div class="progress"><div class="progress-bar"></div></div>
+                                        <a href="#" class="bs-wizard-dot"></a>
+                                        <div class="bs-wizard-info text-center"><p>Start Making Money</p></div>
+                                    </div>
+                                </div>-->
+
+        </div>
+    </div>
+
+    <div id="fh5co-blog" class="fh5co-bg-section">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Recent blogposts</h2>
+                    <p>Coming soon!</p>
+                </div>
+            </div>
+            <!--            <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="fh5co-blog animate-box">
+                                    <a href="#"><img class="img-responsive" src="images/project-4.jpg" alt=""></a>
+                                    <div class="blog-text">
+                                        <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                        <span class="posted_on">Nov. 15th</span>
+                                        <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="fh5co-blog animate-box">
+                                    <a href="#"><img class="img-responsive" src="images/project-2.jpg" alt=""></a>
+                                    <div class="blog-text">
+                                        <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                                        <span class="posted_on">Nov. 15th</span>
+                                        <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="fh5co-blog animate-box">
+                                    <a href="#"><img class="img-responsive" src="images/project-3.jpg" alt=""></a>
+                                    <div class="blog-text">
+                                        <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                                        <span class="posted_on">Nov. 15th</span>
+                                        <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+        </div>
+    </div>
+
+    <!--
+        <div id="fh5co-project">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Our principles</h2>
+                        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid proj-bottom">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>We love opensource</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>We love automating stuff</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>No code enthusiasts </h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-9.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>Talk at meetups</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>Write blog</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>One step ahead of the buzz</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>Break the code</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                        <a href="#"><img src="images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                            <h3>Vendor agnostic</h3>
+                            <span>Detail</span>
+                        </a>
+                    </div>
+                                            <div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+                                                <a href="#"><img src="images/project-6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                                                    <h3>One step ahead of the buzz</h3>
+                                                    <span>Detail</span>
+                                                </a>
+                                            </div>
+                </div>
+            </div>
+        </div>-->
+
+
+    <div id="fh5co-contact">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Contact us</h2>
+                    <!--<p></p>-->
+                </div>
+            </div>
+            <!--                </div>
+                        </div>-->
+            <!--            <div id="fh5co-contact">
+                            <div class="container">                    -->
+            <!--<div class="row">-->
+            <div class="col-md-5 col-md-push-1 animate-box">
+                <div class="fh5co-contact-info">
+                    <!--<h3>Contact us</h3>-->
+                    <ul>
+                        <li class="address">Jaurisova 515/4 <br> Michle, 140 00 Praha 4</li>
+                        <li class="phone"><a href="tel://+420pleasedontcall">+420 DON OTC ALL</a></li>
+                        <li class="email"><a href="mailto:contact@pipetail.io">contact@pipetail.io</a></li>
+                        <!--<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>-->
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-6 animate-box">
+                <!--<h3>Get In Touch</h3>-->
+                <form action="https://formspree.io/xvoaljwd" method="POST">
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <!-- <label for="fname">Name</label> -->
+                            <input type="text" id="fname" class="form-control" placeholder="Your name">
+                        </div>
+                        <!--                                    <div class="col-md-6">
+                                                                 <label for="lname">Last Name</label>
+                                                                <input type="text" id="lname" class="form-control" placeholder="Your lastname">
+                                                            </div>-->
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <!-- <label for="email">Email</label> -->
+                            <input type="text" id="email" class="form-control" placeholder="Your email address">
+                        </div>
+                    </div>
+
+                    <!--                                <div class="row form-group">
+                                                        <div class="col-md-12">
+                                                             <label for="subject">Subject</label>
+                                                            <input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+                                                        </div>
+                                                    </div>-->
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <!-- <label for="message">Message</label> -->
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-primary">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--</div>-->
+
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-md-10 text-left">
+                    <p>
+                        <small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+                        <!--<small class="block"></small>-->
+                    </p>
+                </div>
+                <!--                <div class="col-md-4 text-center">
+                                    <p>
+                                    <ul class="fh5co-social-icons">
+                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                                    </ul>
+                                    </p>
+                                </div>-->
+            </div>
+
+        </div>
+    </footer>
+</div>
+
+<div class="gototop js-top">
+    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- countTo -->
+<script src="js/jquery.countTo.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
