@@ -479,12 +479,17 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4">
                                 <div class="fh5co-blog animate-box">
-                                    <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"><img class="img-responsive" src="https://blog.pipetail.io/images/2020-03-05-gitlab-cicd_hua7da98a5a6dd7141338bdcd97f34834c_66581_700x450_resize_box_2.png" alt=""></a>
+                                    <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"><img class="img-responsive" src="https://blog.pipetail.io/images/2020-05-04-cover_hu8d359bfc00f47b2cf9d94fc59b3ce11e_110208_700x450_resize_q75_box.jpg" alt=""></a>
                                     <div class="blog-text">
-                                        <h3><a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"><br>GitLab Runner on EKS</a></h3>
-                                        <span class="posted_on">Mar. 5th</span>
+                                        <h3><a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/">10 most common mistakes using kubernetes</a></h3>
+                                        <span class="posted_on">May. 4th</span>
                                         <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
-                                        <p>GitLab-CI/CD is a great and powerful product for CI/CD pipelines. <br>Hosted gitlab.com solution offers shared runners and some usage minutes based on your paid plan (even if the free tier). <br> Though you might want to run your own runner in your private or public cloud. <br>I will show how to run GitLab runner on AWS using terraform, Elastic Kubernetes Service and GitLab kubernetes integration.</p>
+                                        <p>We had the chance to see quite a bit of clusters in our years of experience with kubernetes (both managed 
+                                            and unmanaged - on GCP, AWS and Azure), and we see some mistakes being repeated. 
+                                            <br><br>No shame in that, we’ve done 
+                                            most of these too!<br><br>
+                                            I'll try to show the ones we see very often and talk a bit about how to fix them.<br>
+                                            </p>
                                         <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/" class="btn btn-primary">Read More</a>
                                     </div>
                                 </div>
@@ -493,23 +498,28 @@
                                 <div class="fh5co-blog animate-box">
                                     <a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/"><img class="img-responsive" src="https://blog.pipetail.io/images/2020-02-12-EKS-private-cluster-title_huf02a6b4f2b12de994f5ca6e03c02d75b_138871_700x450_resize_box_2.png" alt=""></a>
                                     <div class="blog-text">
-                                        <h3><a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/">EKS managed worker nodes without internet access</a></h3>
-                                        <span class="posted_on">Feb. 12th</span>
+                                        <h3><a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/">More EKS tips to make your life easier</a></h3>
+                                        <span class="posted_on">Apr. 13th</span>
                                         <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
-                                        <p>Are you using EKS managed worked pools? You should! Using EKS managed worker pools boosts the “managed Kubernetes” feeling. However, this pretty new offering did not cover one specific use case: cluster with no Internet access. By default, workers need Internet access so they can pull Docker images and register to the control plane. On the other hand, no internet access is a pretty common requirement, especially in regulated businesses.</p>
+                                        <p>We've spent most of the last month on implementing EKS. Surprisingly, we're always 
+                                            solving the same concerns no matter what project we're working on. <br>
+                                            Here's couple of tips for your EKS clusters!
+                                            Kube2iam is amazing tool. I really like it and it helped me with granular control access in couple of projects. <br>
+                                            However, there's a better solution that is supported out of the box: IAM roles for services accounts.
+                                            </p>
                                         <a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/" class="btn btn-primary">Read More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4">
                                 <div class="fh5co-blog animate-box">
-                                    <a href="https://blog.pipetail.io/posts/2020-02-09-opentelemetry-introduction/"><img class="img-responsive" src="https://blog.pipetail.io/images/2020-02-09-opentelemetry-introduction-title_hu457db7653543d38a6c796e57d0bd75cc_89611_700x450_resize_box_2.png" alt=""></a>
+                                    <a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/"><img class="img-responsive" src="https://blog.pipetail.io/images/2020-02-12-EKS-private-cluster-title_huf02a6b4f2b12de994f5ca6e03c02d75b_138871_700x450_resize_box_2.png" alt=""></a>
                                     <div class="blog-text">
-                                        <h3><a href="https://blog.pipetail.io/posts/2020-02-09-opentelemetry-introduction/">A brief introduction to OpenTelemetry</a></h3>
-                                        <span class="posted_on">Feb. 9th</span>
+                                        <h3><a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/">Getting started with PodSecurityPolicy on EKS</a></h3>
+                                        <span class="posted_on">Mar. 15th</span>
                                         <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
-                                        <p>Applications are not easy, tracing is. I have great news! OpenTelemetry will be in beta soon! What does it mean? Well, we can start instrumenting applications directly with OpenTelemetry and we can skip its ancestors. OpenTelemetry is pretty new project which merges OpenCensus and OpenTracing projects together. Both projects had the same vision: make the observability of applications better with tracing.</p>
-                                        <a href="https://blog.pipetail.io/posts/2020-02-09-opentelemetry-introduction/" class="btn btn-primary">Read More</a>
+                                        <p>As you might already know, security is not something that a specialized department should be responsible for. Instead, we all should bear in mind that security matters and build secure solutions from the very beginning. Today we're gonna talk about some practices in the world of containerized apps and Kubernetess. So let's say we have some best practices for the containerized workloads. But how to enforce that? We'll tell you right away.</p>
+                                        <a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/" class="btn btn-primary">Read More</a>
                                     </div>
                                 </div>
                             </div>
