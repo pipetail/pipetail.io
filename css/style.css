@@ -327,7 +327,24 @@ h1, h2, h3, h4, h5, h6, figure {
     -o-transform: scale(1.2);
     transform: scale(1.2);
 }
-
+.case-study-cover{
+    height: 100px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.case-study-cover .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
 .fh5co-cover {
     height: 800px;
     background-size: cover;
@@ -675,6 +692,18 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-project {
     margin-bottom: 30px;
 }
+.fh5co-project > h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;}
+.fh5co-project > p {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
 .fh5co-project > a {
     display: block;
     color: #000;
@@ -767,6 +796,28 @@ h1, h2, h3, h4, h5, h6, figure {
         transform: scale(1);
     }
 }
+.fh5co-project figure{     
+    margin-bottom: 50px;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px; 
+    display:block; 
+    border-radius:100%; 
+    width:100%; 
+    /*height:150px;*/ 
+    border:0px solid var(--primary-color); 
+    text-align:center; 
+    line-height:150px; 
+    color:var(--primary-color); 
+    font-size:70px
+}
+
+.btn-center{
+    margin-left: 25%;
+    display:block; 
+    text-align:center; 
+    width: 50%;
+}
 
 .features {
     margin-bottom: 3em;
@@ -798,7 +849,17 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 12px;
     letter-spacing: 2px;
 }
-
+.case-study-heading{
+    margin-bottom: -30px;
+}
+.overlay-image{    
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.85);
+}
+.case-study-section{
+    margin-top: -100px;
+    margin-bottom: -30px;
+}
 #fh5co-testimonial {
     background: #efefef;
 }
@@ -1649,7 +1710,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .four-box-pan section p{ line-height:27px; font-weight:500; padding-top:5px; color:#5e5e64}
 
 .fh5co-card-item {
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     margin-right: 15px;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
@@ -1666,3 +1727,4 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
