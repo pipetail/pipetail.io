@@ -255,6 +255,10 @@ h1, h2, h3, h4, h5, h6, figure {
     color: #fff !important;
 }
 
+.logo{
+    height: 24px;    
+}
+
 #fh5co-header,
 #fh5co-counter,
 .fh5co-bg {
