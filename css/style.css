@@ -12,7 +12,7 @@
 * ======================================================= */
 
 :root {
-    --primary-color: #ff0000; //  var(--primary-color)
+    --primary-color: #462482; // var(--primary-color)
 }
 
 body {
@@ -253,6 +253,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li.active > a {
     color: #fff !important;
+}
+
+.logo{
+    height: 36px;
 }
 
 #fh5co-header,
@@ -519,6 +523,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started,
 #fh5co-project,
 #fh5co-blog,
+#features-section,
 #fh5co-contact,
 #fh5co-footer {
     padding: 7em 0;
@@ -529,6 +534,7 @@ h1, h2, h3, h4, h5, h6, figure {
     #fh5co-pricing,
     #fh5co-testimonial,
     #fh5co-started,
+    #features-section,
     #fh5co-project,
     #fh5co-blog,
     #fh5co-contact,
@@ -1712,11 +1718,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-card-item {
     /*margin-left: 15px;*/
     margin-right: 15px;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    -ms-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 1px 4px 0px var(--primary-color);
+    -moz-box-shadow: 0px 1px 4px 0px var(--primary-color);
+    -ms-box-shadow: 0px 1px 4px 0px var(--primary-color);
+    -o-box-shadow: 0px 1px 4px 0px var(--primary-color);
+    box-shadow: 0px 1px 4px 0px var(--primary-color);
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -1726,5 +1732,48 @@ h1, h2, h3, h4, h5, h6, figure {
     transition: 0.3s;
 }
 
+/* Features Style */
+.features-section {	
+        background: #efefef;        
+        padding-bottom: 100px;
+}
+.features-section .section-heading {
+        padding-top: 100px;
+	text-align: center;
+}
+.features-section .feature-item {
+	box-shadow: 0px 0px 5px var(--primary-color);
+	border-radius: 5px;
+	padding: 30px;
+	margin-bottom: 30px;
+        height: 250px;
+}
+.features-section .feature-item .icon {
+	float: left;
+	margin-top: 12px;
+}
+.features-section .feature-item .icon img {
+	max-width: 80px;
+	margin-right: 30px;
+}
+.features-section .feature-item h3 {
+        color: black;
+}
+.features-section .feature-item h4 {
+	font-size: 18px;
+	color: var(--primary-color);
+	letter-spacing: 0.5px;
+	font-weight: 700;
+}
+.features-section .feature-item p {
+	margin-left: 106px;
+}
+
+@media(max-width: 1000px){
+    .features-section .feature-item{
+        height: 200px;
+        /*display: none;*/
+    }
+}
 /*# sourceMappingURL=style.css.map */
 
