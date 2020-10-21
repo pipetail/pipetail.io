@@ -1,642 +1,562 @@
 <!DOCTYPE HTML>
 <html>
 
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156564231-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156564231-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-            gtag('config', 'UA-156564231-1');
-        </script>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        gtag('config', 'UA-156564231-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>pipetail.io | DevOps and Cloud Native consulting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="pipetail.io - DevOps and Cloud Native consulting" />
+    <meta name="keywords"
+        content="devops,cloud native,kubernetes,docker,ci/cd,google cloud platform,amazon web services,pipeline" />
+    <meta name="author" content="freehtml5.co" />
 
-        <title>pipetail.io | DevOps and Cloud Native consulting</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="pipetail.io - DevOps and Cloud Native consulting" />
-        <meta name="keywords"
-              content="devops,cloud native,kubernetes,docker,ci/cd,google cloud platform,amazon web services,pipeline" />
-        <meta name="author" content="freehtml5.co" />
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
 
-        <!-- Facebook and Twitter integration -->
-        <meta property="og:title" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:site_name" content="" />
-        <meta property="og:description" content="" />
-        <meta name="twitter:title" content="" />
-        <meta name="twitter:image" content="" />
-        <meta name="twitter:url" content="" />
-        <meta name="twitter:card" content="" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-        <!-- Animate.css -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- Icomoon Icon Fonts-->
-        <link rel="stylesheet" href="css/icomoon.css">
-        <!-- Bootstrap  -->
-        <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-        <!-- Magnific Popup -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- Owl Carousel  -->
-        <link rel="stylesheet" href="css/owl.carousel.min.css">
-        <link rel="stylesheet" href="css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!-- Theme style  -->
-        <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
 
-        <!-- Modernizr JS -->
-        <script src="js/modernizr-2.6.2.min.js"></script>
-        <!-- FOR IE9 below -->
-        <!--[if lt IE 9]>
-            <script src="js/respond.min.js"></script>
-            <![endif]-->
+</head>
 
-    </head>
+<body>
 
-    <body>
+    <div class="fh5co-loader"></div>
 
-        <div class="fh5co-loader"></div>
+    <div id="page">
+        <nav class="fh5co-nav" role="navigation">
 
-        <div id="page">
-            <nav class="fh5co-nav" role="navigation">
-
-                <div class="top-menu">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-1">
-                                <div id="fh5co-logo">
-                                    <a href="#" title="Logo"><img class="logo" src="images/logo.png" alt="Logo" title="Logo" /></a>
-                                </div>
-                            </div>
-                            <div class="col-xs-11 text-right menu-1">
-                                <ul>
-                                    <li class="active"><a href="/">Home</a></li>
-                                    <li><a href="#features-section">Solutions</a></li>
-                                    <li><a href="#fh5co-project">Case Studies</a></li>
-                                    <li><a href="#fh5co-testimonial">Customers</a></li>
-                                    <li><a href="#fh5co-explore">Products</a></li>
-                                    <li><a href="http://blog.pipetail.io">Blog</a></li>
-                                    <li><a href="#fh5co-contact">Contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-
-            <header id="fh5co-header" class="fh5co-cover" role="banner" alt="Photo by Billy Huynh on Unsplash"
-                    style="background-image:url(images/bg_main.jpg);" data-stellar-background-ratio="0.5">
-                <div class="overlay"></div>
+            <div class="top-menu">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2 text-center">
-                            <div class="display-t">
-                                <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                                    <h1>Don't waste engineering time on cloud toil</h1>
-                                    <h2>Say hey to pipetail!</h2>
-                                </div>
-                            </div>
+                        <div class="col-xs-1">
+                            <div id="fh5co-logo"><a href="/"><span>pipe</span>tail</a></div>
+                        </div>
+                        <div class="col-xs-11 text-right menu-1">
+                            <ul>
+                                <li class="active"><a href="/">Home</a></li>
+                                <li><a href="#fh5co-testimonial">Customers</a></li>
+                                <li><a href="#fh5co-explore">Products</a></li>
+                                <li><a href="http://blog.pipetail.io">Blog</a></li>
+                                <li><a href="#fh5co-contact">Contact us</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </header>
 
-            <div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                            <h2>Pipetail is no tale!</h2>
-                            <p>You are probably tired of all the bullshit - zero downtime, infrastructure on one click,
-                                kubernetes magic, 99.9999% SLA, you name it. We know the buzz. And we don’t follow it. </p>
-                            <p>Your business needs will be solved with the right kind of technology and tooling.
-                                Not with tools that are just trendy.</p>
-                        </div>
-                        <div class="row animate-box">
-                            <div class="col-md-8 col-md-offset-2 text-center">
-                                <p><a class="btn btn-primary btn-lg btn-learn" href="#fh5co-contact">Get in touch</a>
+                </div>
+            </div>
+        </nav>
+
+        <header id="fh5co-header" class="fh5co-cover" role="banner" alt="Photo by Billy Huynh on Unsplash"
+            style="background-image:url(images/bg_main.jpg);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <div class="display-t">
+                            <div class="display-tc animate-box" data-animate-effect="fadeIn">
+                                <h1>Don't waste engineering time on cloud toil</h1>
+                                <h2>Say hey to pipetail!</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </header>
 
-            <!-- Features Starts Here -->
-            <div id="features-section" class="features-section">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                            <h2>Our solutions</h2>
-                            <p>We believe in great design! It is an investment that pays off.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <div class="icon">
-                                    <img src="images/icons/clouds.png" alt="">
-                                </div>
-                                <h3>AWS, GCP and Azure</h3>
-                                <p>Are you migrating to the cloud or are already using it? Get help from certified Solution Architects to guide you through the process. We provide consulting and workshops to support this uneasy change.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <div class="icon">
-                                    <img src="images/icons/yacht.png" alt="">
-                                </div>
-                                <h3>Kubernetes</h3>
-                                <p>We build custom platforms on top of Kubernetes tailored to your needs. We teach how to fully leverage Kubernetes in your company. We are certified Kubernetes Administrators.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <div class="icon">
-                                    <img src="images/icons/report.png" alt="">
-                                </div>
-                                <h3>Infrastructure and billing analysis</h3>
-                                <p>We analyze thoroughly your public cloud bill and suggest some optimizations in order to tackle its uncontrolled growth. Further we analyze your cloud infrastructure to discover possible misconfigurations or suboptimal usage.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <div class="icon">
-                                    <img src="images/icons/code.png" alt="">
-                                </div>
-                                <h3>Terraform</h3>
-                                <p>We will rewrite and import your cloud infrastructure into Terraform, allowing you to leverage Infrastructure as Code benefits to make infrastructure provisioning sustainable, maintainable and reviewable.</p>
-                            </div>
-                        </div>
+        <div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Pipetail is no tale!</h2>
+                        <p>You are probably tired of all the bullshit - zero downtime, infrastructure on one click,
+                            kubernetes magic, 99.9999% SLA, you name it. We know the buzz. And we don’t follow it. </p>
+
+                        <p>Your business needs will be solved with the right kind of technology and tooling.
+                            Not with tools that are just trendy.</p>
+
+                        <p>We believe in great design! It is an investment that pays off.</p>
+
                     </div>
                 </div>
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <p><a class="btn btn-primary btn-lg btn-learn" href="#fh5co-contact">Get in touch</a>
+                    </div>
+                </div>
+
             </div>
-
-            <div id="fh5co-project">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                            <h2>Case studies</h2>
-                            <p>We focus on container workloads on Amazon Web Services and Google Cloud Platform as certified
-                                professionals.
-                                <br>
-                                <br>
-                                Here is some of our work:
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid proj-bottom">
-                    <div class="row">
-                        <div class="col-md-1" data-animate-effect="fadeIn">
-
-                        </div>
-                        <div class="col-md-5 col-sm-6 fh5co-project animate-box fh5co-card-item"
-                             data-animate-effect="fadeIn">
-
-                            <figure>
-                                <img src="images/logos/shipmonk-case-study-cover.png" alt="Shipmonk case study cover"
-                                     class="img-responsive">
-                            </figure>
-
-                            <h3>ShipMonk AWS infrastructure</h3>
-                            <p>Instead of internally building and operating its own infrastructure, Shipmonk can leverage managed services from AWS, without worrying much about scalability and maintenance.</p>
-                            <p><br><a class="btn btn-primary btn-lg btn-center" href="studies/shipmonk">Read study</a></p>
-                        </div>
-                        <div class="col-md-1" data-animate-effect="fadeIn">
-
-                        </div>
-                        <div class="col-md-5 col-sm-6 fh5co-project animate-box fh5co-card-item"
-                             data-animate-effect="fadeIn">
-
-                            <figure>
-                                <img src="images/logos/signageos-case-study-cover.png" alt="signageOS case study cover"
-                                     class="img-responsive">
-                            </figure>
-
-                            <h3>signageOS AWS infrastructure</h3>
-                            <p>Instead of internally building and operating its own infrastructure, signageOS can leverage managed services from AWS, without worrying much about scalability and maintenance.</p>
-                            <p><br><a class="btn btn-primary btn-lg btn-center" href="/">Coming soon!</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="fh5co-testimonial" class="fh5co-bg-section">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                            <h2>Our customers</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="row animate-box">
-                                <div class="owl-carousel owl-carousel-fullwidth">
-                                    <div class="item">
-                                        <div class="testimony-slide active text-center">
-                                            <figure>
-                                                <img src="images/michal.jpeg" alt="user">
-                                            </figure>
-                                            <span>Michal Weiser, CTO <a href="https://fingood.cz/"
-                                                                        class="twitter">finGOOD</a></span>
-                                            <blockquote>
-                                                <p>&ldquo;I picked pipetail when randomly searching for experienced Cloud
-                                                    Architects to help us define project's new technical phase. Picking them
-                                                    was more than clearly the jackpot. Excellent technical skill combined
-                                                    with clear communication and on time delivery are just a tip of the
-                                                    iceberg of pipetail's values. Very open, honest and to the point the
-                                                    whole time - looking forward to our future cooperation! Don't hesitate
-                                                    to pick pipetail for any kind of project, you'll be satisfied -
-                                                    guaranteed.&rdquo;</p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimony-slide active text-center">
-                                            <figure>
-                                                <img src="images/vasek.jpeg" alt="user">
-                                            </figure>
-                                            <span>Václav Jareš, CTO <a href="https://shipmonk.com/"
-                                                                       class="twitter">ShipMonk</a></span>
-                                            <blockquote>
-                                                <p>&ldquo;Pipetail is a great partner in ShipMonk’s infrastructure. They
-                                                    helped with overall cluster stability, documentation, processes and
-                                                    CI/CD. Their expertise in Kubernetes and AWS is priceless.&rdquo;</p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-
-                                    <div class="item">
-                                        <div class="testimony-slide active text-center">
-                                            <figure>
-                                                <img src="images/vojta.jpg" alt="user">
-                                            </figure>
-                                            <span>Vojtěch Knyttl, Technical Lead <a href="http://goout.net/"
-                                                                                    class="twitter">GoOut.net</a></span>
-                                            <blockquote>
-                                                <p>&ldquo;I worked with Marek on Kubernetes implementation for our GoOut.net
-                                                    event platform. Marek was a pleasure to work with and after a while I
-                                                    just preferred to work only with him. His way of working is just how it
-                                                    should be. I found when working between companies, the most important
-                                                    part is communication and that is something Marek handles as well as the
-                                                    implementation itself.&rdquo;</p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimony-slide active text-center">
-                                            <figure>
-                                                <img src="images/pepa.jpg" alt="user">
-                                            </figure>
-                                            <span>Josef Martinec, CTO <a href="https://www.spendee.com/"
-                                                                         class="twitter">Spendee</a></span>
-                                            <blockquote>
-                                                <p>&ldquo;Marek helped us at Spendee with migration of backend to Kubernetes
-                                                    and we were very pleased working with him. We did not get a blackbox
-                                                    "suite-them-all" solution. Instead Marek guided us through the
-                                                    implementation process the way we were able to understand the entire
-                                                    solution and it suits the best our needs.&rdquo;</p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimony-slide active text-center">
-                                            <figure>
-                                                <img src="images/tomas.jpg" alt="user">
-                                            </figure>
-                                            <span>Tomáš Papež, Migration Squad Lead <a href="http://goout.net/"
-                                                                                       class="twitter">Kiwi.com</a></span>
-                                            <blockquote>
-                                                <p>&ldquo;I worked with Marek on multiple projects on Google Cloud Platform
-                                                    and Kubernetes. Marek is humble and knowledgable guy always willing to
-                                                    help and find the best solution for customer needs. I always liked that
-                                                    he is able not to just design excellent technological solutions but also
-                                                    present them to critical stakeholders. Nice to work with you, hope to
-                                                    get another chance for the same in the future.&rdquo;</p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="testimony-slide active text-center">
-                                            <figure>
-                                                <img src="images/david.jpg" alt="user">
-                                            </figure>
-                                            <span>David Šabata, Head of Engineering <a href="https://www.roihunter.com/"
-                                                                                       class="twitter">ROI Hunter</a></span>
-                                            <blockquote>
-                                                <p>&ldquo;Marek helped us with Infrastructure as Code during our migration
-                                                    to Google Cloud Platform. He executed the technical part as well as an
-                                                    on-site workshop to transfer the knowledge to our internal teams. Marek
-                                                    could answer every question in detail proving to be a very experienced
-                                                    consultant.&rdquo;</p>
-                                            </blockquote>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="fh5co-counter" class="fh5co-counters">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 text-center animate-box">
-                            <span class="fh5co-counter js-counter" data-from="4" data-to="14" data-speed="2000"
-                                  data-refresh-interval="100"></span>
-                            <span class="fh5co-counter-label">Happy clients</span>
-                        </div>
-                        <div class="col-md-3 text-center animate-box">
-                            <span class="fh5co-counter js-counter" data-from="5" data-to="10" data-speed="2000"
-                                  data-refresh-interval="100"></span>
-                            <span class="fh5co-counter-label">NPS</span>
-                        </div>
-                        <div class="col-md-3 text-center animate-box">
-                            <span class="fh5co-counter js-counter" data-from="9" data-to="10" data-speed="5000"
-                                  data-refresh-interval="30"></span>
-                            <span class="fh5co-counter-label">employee NPS</span>
-                        </div>
-                        <div class="col-md-3 text-center animate-box">
-                            <span class="fh5co-counter js-counter" data-from="0" data-to="174323" data-prefix="$ "
-                                  data-speed="5000" data-refresh-interval="50"></span>
-                            <span class="fh5co-counter-label">saved on cloud billing</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="fh5co-explore" class="fh5co-bg-section">
-                <div class="container">
-                    <div class="row animate-box">
-                        <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                            <h2>Our products</h2>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="fh5co-explore fh5co-explore1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8 col-md-push-5 animate-box">
-                                <img class="img-responsive" src="images/cloudlint.jpg"
-                                     alt="Photo by Carlos Muza on Unsplash">
-                            </div>
-                            <div class="col-md-4 col-md-pull-8 animate-box">
-                                <div class="mt">
-                                    <h3>CloudLint</h3>
-                                    <p>We know cloud is hard. And it might get expensive. It is not easy to understand how
-                                        the cloud pricing works.</p>
-                                    <ul class="list-nav">
-                                        <li><i class="icon-check2"></i>Identify largest saving opportunities</li>
-                                        <li><i class="icon-check2"></i>Automated reports</li>
-                                        <li><i class="icon-check2"></i>AWS integration</li>
-                                    </ul>
-                                    <p><a class="btn btn-primary btn-lg" href="#fh5co-contact">I'm interested</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="fh5co-project">
-                <!--<div id="fh5co-steps">-->
-                <div class="container">
-                    <div class="row animate-box"></div>
-                    <div class="row col-md-12 text-center fh5co-heading four-box-pan">
-                        <h2>Who is pipetail and what we <3</h2>
-                        <p>Pipetail is a team of guys and girls who are tired of all the bs around “corporate IT”.
-                        </p>
-                        <br>
-                        <!--<h3>Our principles, We <3</h3>-->
-                        <!--<br>-->
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-code-fork" aria-hidden="true"></i></figure>
-                            <p>Open source</p><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-code" aria-hidden="true"></i></figure>
-                            <p>Automating stuff</p> <br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-comments-o" aria-hidden="true"></i></figure>
-                            <p>Talk at meetups</p> <br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-edit" aria-hidden="true"></i></figure>
-                            <p>Write blogposts</p>
+        </div>
+        <div id="fh5co-project">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                        <h2>Case studies</h2>
+                        <p>We focus on container workloads on Amazon Web Services and Google Cloud Platform as certified
+                            professionals.
                             <br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-heart" aria-hidden="true"></i></figure>
-                            <p>Honesty, transparency</p><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-lightbulb-o" aria-hidden="true"></i></figure>
-                            <p>One step ahead of the buzz</p><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-unlock" aria-hidden="true"></i></figure>
-                            <p>Vendor agnostic</p><br>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <figure><i class="fa fa-users" aria-hidden="true"></i></figure>
-                            <p>Our customers</p> <br>
+                            <br>
+                            Here is some of our work:
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid proj-bottom">
+                <div class="row">
+                    <div class="col-md-1" data-animate-effect="fadeIn">
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 fh5co-project animate-box fh5co-card-item"
+                        data-animate-effect="fadeIn">
+
+                        <figure>
+                            <img src="images/logos/shipmonk-case-study-cover.png" alt="Shipmonk case study cover"
+                                class="img-responsive">
+                        </figure>
+
+                        <h3>ShipMonk AWS infrastructure</h3>
+                        <p>Instead of internally building and operating its own infrastructure, Shipmonk can leverage managed services from AWS, without worrying much about scalability and maintenance.</p>
+                        <p><br><a class="btn btn-primary btn-lg btn-center" href="studies/shipmonk">Read study</a></p>
+                    </div>
+                    <div class="col-md-1" data-animate-effect="fadeIn">
+
+                    </div>
+                    <div class="col-md-5 col-sm-6 fh5co-project animate-box fh5co-card-item"
+                        data-animate-effect="fadeIn">
+
+                        <figure>
+                            <img src="images/logos/signageos-case-study-cover.png" alt="signageOS case study cover"
+                                class="img-responsive">
+                        </figure>
+
+                        <h3>signageOS AWS infrastructure</h3>
+                        <p>Instead of internally building and operating its own infrastructure, signageOS can leverage managed services from AWS, without worrying much about scalability and maintenance.</p>
+                        <p><br><a class="btn btn-primary btn-lg btn-center" href="/">Coming soon!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-testimonial" class="fh5co-bg-section">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                        <h2>Our customers</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="row animate-box">
+                            <div class="owl-carousel owl-carousel-fullwidth">
+                                <div class="item">
+                                    <div class="testimony-slide active text-center">
+                                        <figure>
+                                            <img src="images/michal.jpeg" alt="user">
+                                        </figure>
+                                        <span>Michal Weiser, CTO <a href="https://fingood.cz/"
+                                                class="twitter">finGOOD</a></span>
+                                        <blockquote>
+                                            <p>&ldquo;I picked pipetail when randomly searching for experienced Cloud
+                                                Architects to help us define project's new technical phase. Picking them
+                                                was more than clearly the jackpot. Excellent technical skill combined
+                                                with clear communication and on time delivery are just a tip of the
+                                                iceberg of pipetail's values. Very open, honest and to the point the
+                                                whole time - looking forward to our future cooperation! Don't hesitate
+                                                to pick pipetail for any kind of project, you'll be satisfied -
+                                                guaranteed.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-slide active text-center">
+                                        <figure>
+                                            <img src="images/vasek.jpeg" alt="user">
+                                        </figure>
+                                        <span>Václav Jareš, CTO <a href="https://shipmonk.com/"
+                                                class="twitter">ShipMonk</a></span>
+                                        <blockquote>
+                                            <p>&ldquo;Pipetail is a great partner in ShipMonk’s infrastructure. They
+                                                helped with overall cluster stability, documentation, processes and
+                                                CI/CD. Their expertise in Kubernetes and AWS is priceless.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="testimony-slide active text-center">
+                                        <figure>
+                                            <img src="images/vojta.jpg" alt="user">
+                                        </figure>
+                                        <span>Vojtěch Knyttl, Technical Lead <a href="http://goout.net/"
+                                                class="twitter">GoOut.net</a></span>
+                                        <blockquote>
+                                            <p>&ldquo;I worked with Marek on Kubernetes implementation for our GoOut.net
+                                                event platform. Marek was a pleasure to work with and after a while I
+                                                just preferred to work only with him. His way of working is just how it
+                                                should be. I found when working between companies, the most important
+                                                part is communication and that is something Marek handles as well as the
+                                                implementation itself.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-slide active text-center">
+                                        <figure>
+                                            <img src="images/pepa.jpg" alt="user">
+                                        </figure>
+                                        <span>Josef Martinec, CTO <a href="https://www.spendee.com/"
+                                                class="twitter">Spendee</a></span>
+                                        <blockquote>
+                                            <p>&ldquo;Marek helped us at Spendee with migration of backend to Kubernetes
+                                                and we were very pleased working with him. We did not get a blackbox
+                                                "suite-them-all" solution. Instead Marek guided us through the
+                                                implementation process the way we were able to understand the entire
+                                                solution and it suits the best our needs.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-slide active text-center">
+                                        <figure>
+                                            <img src="images/tomas.jpg" alt="user">
+                                        </figure>
+                                        <span>Tomáš Papež, Migration Squad Lead <a href="http://goout.net/"
+                                                class="twitter">Kiwi.com</a></span>
+                                        <blockquote>
+                                            <p>&ldquo;I worked with Marek on multiple projects on Google Cloud Platform
+                                                and Kubernetes. Marek is humble and knowledgable guy always willing to
+                                                help and find the best solution for customer needs. I always liked that
+                                                he is able not to just design excellent technological solutions but also
+                                                present them to critical stakeholders. Nice to work with you, hope to
+                                                get another chance for the same in the future.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-slide active text-center">
+                                        <figure>
+                                            <img src="images/david.jpg" alt="user">
+                                        </figure>
+                                        <span>David Šabata, Head of Engineering <a href="https://www.roihunter.com/"
+                                                class="twitter">ROI Hunter</a></span>
+                                        <blockquote>
+                                            <p>&ldquo;Marek helped us with Infrastructure as Code during our migration
+                                                to Google Cloud Platform. He executed the technical part as well as an
+                                                on-site workshop to transfer the knowledge to our internal teams. Marek
+                                                could answer every question in detail proving to be a very experienced
+                                                consultant.&rdquo;</p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-counter" class="fh5co-counters">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center animate-box">
+                        <span class="fh5co-counter js-counter" data-from="4" data-to="14" data-speed="2000"
+                            data-refresh-interval="100"></span>
+                        <span class="fh5co-counter-label">Happy clients</span>
+                    </div>
+                    <div class="col-md-3 text-center animate-box">
+                        <span class="fh5co-counter js-counter" data-from="5" data-to="10" data-speed="2000"
+                            data-refresh-interval="100"></span>
+                        <span class="fh5co-counter-label">NPS</span>
+                    </div>
+                    <div class="col-md-3 text-center animate-box">
+                        <span class="fh5co-counter js-counter" data-from="9" data-to="10" data-speed="5000"
+                            data-refresh-interval="30"></span>
+                        <span class="fh5co-counter-label">employee NPS</span>
+                    </div>
+                    <div class="col-md-3 text-center animate-box">
+                        <span class="fh5co-counter js-counter" data-from="0" data-to="174323" data-prefix="$ "
+                            data-speed="5000" data-refresh-interval="50"></span>
+                        <span class="fh5co-counter-label">saved on cloud billing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-explore" class="fh5co-bg-section">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                        <h2>Our products</h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="fh5co-explore fh5co-explore1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-5 animate-box">
+                            <img class="img-responsive" src="images/cloudlint.jpg"
+                                alt="Photo by Carlos Muza on Unsplash">
+                        </div>
+                        <div class="col-md-4 col-md-pull-8 animate-box">
+                            <div class="mt">
+                                <h3>CloudLint</h3>
+                                <p>We know cloud is hard. And it might get expensive. It is not easy to understand how
+                                    the cloud pricing works.</p>
+                                <ul class="list-nav">
+                                    <li><i class="icon-check2"></i>Identify largest saving opportunities</li>
+                                    <li><i class="icon-check2"></i>Automated reports</li>
+                                    <li><i class="icon-check2"></i>AWS integration</li>
+                                </ul>
+                                <p><a class="btn btn-primary btn-lg" href="#fh5co-contact">I'm interested</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="fh5co-project">
+            <!--<div id="fh5co-steps">-->
+            <div class="container">
+                <div class="row animate-box"></div>
+                <div class="row col-md-12 text-center fh5co-heading four-box-pan">
+                    <h2>Who is pipetail and what we <3</h2>
+                            <p>Pipetail is a team of guys and girls who are tired of all the bs around “corporate IT”.
+                            </p>
+                            <br>
+                            <!--<h3>Our principles, We <3</h3>-->
+                            <!--<br>-->
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-code-fork" aria-hidden="true"></i></figure>
+                                <p>Open source</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-code" aria-hidden="true"></i></figure>
+                                <p>Automating stuff</p> <br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-comments-o" aria-hidden="true"></i></figure>
+                                <p>Talk at meetups</p> <br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-edit" aria-hidden="true"></i></figure>
+                                <p>Write blogposts</p>
+                                <br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-heart" aria-hidden="true"></i></figure>
+                                <p>Honesty, transparency</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-lightbulb-o" aria-hidden="true"></i></figure>
+                                <p>One step ahead of the buzz</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-unlock" aria-hidden="true"></i></figure>
+                                <p>Vendor agnostic</p><br>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <figure><i class="fa fa-users" aria-hidden="true"></i></figure>
+                                <p>Our customers</p> <br>
+                            </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
+    </div>
 
-<div id="fh5co-blog" class="fh5co-bg-section">
-    <div class="container">
-        <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2>Recent blogposts</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <div class="fh5co-blog animate-box">
-                    <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"><img
-                            class="img-responsive"
-                            src="https://blog.pipetail.io/images/2020-05-04-cover_hu8d359bfc00f47b2cf9d94fc59b3ce11e_110208_700x450_resize_q75_box.jpg"
-                            alt=""></a>
-                    <div class="blog-text">
-                        <h3><a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/">10 most common
-                                mistakes using kubernetes</a></h3>
-                        <span class="posted_on">May. 4th</span>
-                        <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
-                        <p>We had the chance to see quite a bit of clusters in our years of experience with
-                            kubernetes (both managed
-                            and unmanaged - on GCP, AWS and Azure), and we see some mistakes being repeated.
-                            <br><br>No shame in that, we’ve done
-                            most of these too!<br><br>
-                            I'll try to show the ones we see very often and talk a bit about how to fix them.<br>
-                        </p>
-                        <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"
-                           class="btn btn-primary">Read More</a>
-                    </div>
+    <div id="fh5co-blog" class="fh5co-bg-section">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Recent blogposts</h2>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="fh5co-blog animate-box">
-                    <a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/"><img
-                            class="img-responsive"
-                            src="https://blog.pipetail.io/images/2020-02-12-EKS-private-cluster-title_huf02a6b4f2b12de994f5ca6e03c02d75b_138871_700x450_resize_box_2.png"
-                            alt=""></a>
-                    <div class="blog-text">
-                        <h3><a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/">More EKS tips
-                                to make your life easier</a></h3>
-                        <span class="posted_on">Apr. 13th</span>
-                        <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
-                        <p>We've spent most of the last month on implementing EKS. Surprisingly, we're always
-                            solving the same concerns no matter what project we're working on. <br>
-                            Here's couple of tips for your EKS clusters!
-                            Kube2iam is amazing tool. I really like it and it helped me with granular control access
-                            in couple of projects. <br>
-                            However, there's a better solution that is supported out of the box: IAM roles for
-                            services accounts.
-                        </p>
-                        <a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/"
-                           class="btn btn-primary">Read More</a>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="fh5co-blog animate-box">
+                        <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"><img
+                                class="img-responsive"
+                                src="https://blog.pipetail.io/images/2020-05-04-cover_hu8d359bfc00f47b2cf9d94fc59b3ce11e_110208_700x450_resize_q75_box.jpg"
+                                alt=""></a>
+                        <div class="blog-text">
+                            <h3><a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/">10 most common
+                                    mistakes using kubernetes</a></h3>
+                            <span class="posted_on">May. 4th</span>
+                            <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
+                            <p>We had the chance to see quite a bit of clusters in our years of experience with
+                                kubernetes (both managed
+                                and unmanaged - on GCP, AWS and Azure), and we see some mistakes being repeated.
+                                <br><br>No shame in that, we’ve done
+                                most of these too!<br><br>
+                                I'll try to show the ones we see very often and talk a bit about how to fix them.<br>
+                            </p>
+                            <a href="https://blog.pipetail.io/posts/2020-03-05-gitlab-runner-on-eks/"
+                                class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <div class="fh5co-blog animate-box">
-                    <a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/"><img class="img-responsive"
-                                                                                         src="https://blog.pipetail.io/images/2020-02-12-EKS-private-cluster-title_huf02a6b4f2b12de994f5ca6e03c02d75b_138871_700x450_resize_box_2.png"
-                                                                                         alt=""></a>
-                    <div class="blog-text">
-                        <h3><a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/">Getting started with
-                                PodSecurityPolicy on EKS</a></h3>
-                        <span class="posted_on">Mar. 15th</span>
-                        <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
-                        <p>As you might already know, security is not something that a specialized department should
-                            be responsible for. Instead, we all should bear in mind that security matters and build
-                            secure solutions from the very beginning. Today we're gonna talk about some practices in
-                            the world of containerized apps and Kubernetess. So let's say we have some best
-                            practices for the containerized workloads. But how to enforce that? We'll tell you right
-                            away.</p>
-                        <a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/" class="btn btn-primary">Read
-                            More</a>
+                <div class="col-lg-4 col-md-4">
+                    <div class="fh5co-blog animate-box">
+                        <a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/"><img
+                                class="img-responsive"
+                                src="https://blog.pipetail.io/images/2020-02-12-EKS-private-cluster-title_huf02a6b4f2b12de994f5ca6e03c02d75b_138871_700x450_resize_box_2.png"
+                                alt=""></a>
+                        <div class="blog-text">
+                            <h3><a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/">More EKS tips
+                                    to make your life easier</a></h3>
+                            <span class="posted_on">Apr. 13th</span>
+                            <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
+                            <p>We've spent most of the last month on implementing EKS. Surprisingly, we're always
+                                solving the same concerns no matter what project we're working on. <br>
+                                Here's couple of tips for your EKS clusters!
+                                Kube2iam is amazing tool. I really like it and it helped me with granular control access
+                                in couple of projects. <br>
+                                However, there's a better solution that is supported out of the box: IAM roles for
+                                services accounts.
+                            </p>
+                            <a href="https://blog.pipetail.io/posts/2020-02-12-eks-private-cluster/"
+                                class="btn btn-primary">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="fh5co-blog animate-box">
+                        <a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/"><img class="img-responsive"
+                                src="https://blog.pipetail.io/images/2020-02-12-EKS-private-cluster-title_huf02a6b4f2b12de994f5ca6e03c02d75b_138871_700x450_resize_box_2.png"
+                                alt=""></a>
+                        <div class="blog-text">
+                            <h3><a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/">Getting started with
+                                    PodSecurityPolicy on EKS</a></h3>
+                            <span class="posted_on">Mar. 15th</span>
+                            <span class="comment"><a href="">0<i class="icon-speech-bubble"></i></a></span>
+                            <p>As you might already know, security is not something that a specialized department should
+                                be responsible for. Instead, we all should bear in mind that security matters and build
+                                secure solutions from the very beginning. Today we're gonna talk about some practices in
+                                the world of containerized apps and Kubernetess. So let's say we have some best
+                                practices for the containerized workloads. But how to enforce that? We'll tell you right
+                                away.</p>
+                            <a href="https://blog.pipetail.io/posts/2020-03-15-psp-on-eks/" class="btn btn-primary">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
         </div>
     </div>
-</div>
 
-<div id="fh5co-contact">
-    <div class="container">
-        <div class="row animate-box">
-            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2>Contact us</h2>
+    <div id="fh5co-contact">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Contact us</h2>
+                </div>
             </div>
-        </div>
-        <div class="col-md-5 col-md-push-1 animate-box">
-            <div class="fh5co-contact-info">
+            <div class="col-md-5 col-md-push-1 animate-box">
+                <div class="fh5co-contact-info">
+                    <ul>
+                        <li class="address">pipetail s.r.o.<br>Hybernská 1007/20 <br> Nové Město, 110 00 Praha 1</li>
+                        <li class="message">IČO: 08887951<br>DIČ: CZ08887951</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-6 animate-box">
+                <div class="fh5co-contact-info">
                 <ul>
-                    <li class="address">pipetail s.r.o.<br>Hybernská 1007/20 <br> Nové Město, 110 00 Praha 1</li>
-                    <li class="message">IČO: 08887951<br>DIČ: CZ08887951</li>                      
                     <li></li>
                     <li></li>
-                    <li class="email"><a href="mailto:contact@pipetail.io">contact@pipetail.io</a></li>                
+                    <li class="email"><a href="mailto:contact@pipetail.io">contact@pipetail.io</a></li>
                 </ul>
             </div>
-
-        </div>
-        <div class="col-md-6 animate-box">
-            <!--<h3>Get In Touch</h3>-->
-            <form action="https://formspree.io/xvoaljwd" method="POST">
-                <div class="row form-group">
-                    <div class="col-md-12">                        
-                        <input type="text" id="fname" class="form-control" placeholder="Your name" required>
-                    </div>
-                </div>
-
-                <div class="row form-group">
-                    <div class="col-md-12">                         
-                        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" class="form-control" placeholder="Your email address"
-                               required>
-                    </div>
-                </div>
-
-                <div class="row form-group">
-                    <div class="col-md-12">                         
-                        <textarea name="message" id="message" cols="30" rows="10" class="form-control"
-                                  placeholder="Tell us something" required></textarea>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <!--<input type="submit" value="Send Message" id='validate' class="btn btn-primary">-->
-                    <input type="submit" value="Send Message" type="email" class="btn btn-primary">
-                </div>
-
-            </form>
-
-
-            <!--                    <form action="https://formspree.io/xvoaljwd" method="POST">
-              <p>Enter an email address:</p>
-              <input id='email'>
-              <button type='submit' id='validate'>Validate!</button>
-            </form>-->
-            <h2 id='result'></h2>
-        </div>
-    </div>
-</div>
-<footer id="fh5co-footer" role="contentinfo">
-    <div class="container">
-        <div class="row copyright">
-            <div class="col-md-10 text-left">
-                <p>
-                    <small class="block">Designed by <a href="http://freehtml5.co/"
-                                                        target="_blank">FreeHTML5.co</a></small>
-                </p>
             </div>
         </div>
-
     </div>
-</footer>
-</div>
+    <footer id="fh5co-footer" role="contentinfo">
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-md-10 text-left">
+                    <p>
+                        <small class="block">Designed by <a href="http://freehtml5.co/"
+                                target="_blank">FreeHTML5.co</a></small>
+                    </p>
+                </div>
+            </div>
 
-<div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-</div>
+        </div>
+    </footer>
+    </div>
 
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Stellar Parallax -->
-<script src="js/jquery.stellar.min.js"></script>
-<!-- Carousel -->
-<script src="js/owl.carousel.min.js"></script>
-<!-- countTo -->
-<script src="js/jquery.countTo.js"></script>
-<!-- Magnific Popup -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/magnific-popup-options.js"></script>
-<!-- Main -->
-<script src="js/main.js"></script>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
 
 </body>
 
