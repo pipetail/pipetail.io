@@ -598,7 +598,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .mt {
-    margin-top: 70px;
+    margin-top: 20px;
 }
 .mt h4 {
     position: relative;
@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 40px;
 }
 .mt .list-nav {
-    margin: 50px 0 30px 0;
+    margin: 20px 0 30px 0;
     padding: 0;
 }
 .mt .list-nav li {
