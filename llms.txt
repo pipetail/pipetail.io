@@ -1,0 +1,40 @@
+# pipetail
+
+> AWS Consulting Partner based in Prague, Czech Republic
+
+pipetail is a cloud consultancy specializing in AWS, Kubernetes, Terraform, and infrastructure engineering. We help companies build, migrate, and optimize their cloud infrastructure.
+
+## Services
+
+- **AWS, GCP and Azure consulting**: Cloud migration, architecture design, and optimization by certified AWS Solution Architects.
+- **Kubernetes platforms**: Custom Kubernetes platforms built and operated for production workloads. Certified Kubernetes Administrators.
+- **Infrastructure and billing analysis**: Cloud cost optimization, infrastructure audit, security review, and architecture assessment.
+- **Terraform / Infrastructure as Code**: Rewriting and importing cloud infrastructure into Terraform for sustainable, maintainable, and reviewable provisioning.
+
+## Process
+
+We follow a three-phase approach:
+
+1. **Discover**: Infrastructure audit, cost analysis, security review, architecture assessment, proofs-of-concept, and technical roadmap.
+2. **Build**: Knowledge transfer, Infrastructure as Code implementation, dedicated point of contact.
+3. **Deliver**: Testing, infrastructure deployment with Terraform, ongoing support.
+
+## Case Studies
+
+- **ShipMonk** (2022): Built an EKS platform on AWS. 24/7 oncall support, 2x business revenue, 2x engineering productivity, 15% lower infra costs.
+- **Keboola** (2022): Multi-cloud consolidation to a unified Kubernetes platform on AWS.
+- **Contember** (2023): Multi-region EKS platform. 8x5 oncall support, 3x business revenue, 2x engineering productivity, 40% lower infra costs.
+
+## Contact
+
+- Website: https://pipetail.io
+- Email: contact@pipetail.io
+- LinkedIn: https://linkedin.com/company/pipetail
+- GitHub: https://github.com/pipetail
+
+## Company Details
+
+- Legal name: pipetail s.r.o.
+- Address: Jaurisova 515/4, 140 00, Prague 4, Czech Republic
+- Company ID (IČO): 08887951
+- VAT ID (DIČ): CZ08887951
