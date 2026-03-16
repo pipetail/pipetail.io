@@ -1,5 +1,5 @@
 1:HL["/_next/static/css/bc9445f32b569ec4.css",{"as":"style"}]
-0:["RmBSyTKp7zEJPDZF5yB4R",[[["",{"children":["studies",{"children":["momence",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/bc9445f32b569ec4.css","precedence":"next"}]],"$L3"]]]]
+0:["ZzbpcFxLEWKpXBy6XbSxz",[[["",{"children":["studies",{"children":["momence",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/bc9445f32b569ec4.css","precedence":"next"}]],"$L3"]]]]
 4:I{"id":8960,"chunks":["970:static/chunks/970-551faa60a4f5957e.js","185:static/chunks/app/layout-8d2f6e6a87ae40ae.js"],"name":"RootLayout","async":false}
 5:I{"id":7767,"chunks":["272:static/chunks/webpack-be419ea6f42cc7f4.js","971:static/chunks/fd9d1056-f0d7a6ac6a3812d6.js","596:static/chunks/596-4ed196e40ec2175a.js"],"name":"default","async":false}
 6:I{"id":7920,"chunks":["272:static/chunks/webpack-be419ea6f42cc7f4.js","971:static/chunks/fd9d1056-f0d7a6ac6a3812d6.js","596:static/chunks/596-4ed196e40ec2175a.js"],"name":"default","async":false}
