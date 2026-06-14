@@ -1,29 +1,38 @@
 # pipetail
 
-> AWS Services Partner based in Prague, Czech Republic
+> AWS Advanced Tier Services Partner based in Prague, Czech Republic
 
-pipetail is a cloud consultancy specializing in AWS, Kubernetes, Terraform, and infrastructure engineering. We help companies build, migrate, and optimize their cloud infrastructure.
+pipetail builds and operates production-grade AWS infrastructure for growing SaaS companies. We specialize in multi-region platform engineering, Kubernetes, Terraform, and cloud cost optimization.
 
-## Services
+## What We Do
 
-- **AWS, GCP and Azure consulting**: Cloud migration, architecture design, and optimization by certified AWS Solution Architects.
-- **Kubernetes platforms**: Custom Kubernetes platforms built and operated for production workloads. Certified Kubernetes Administrators.
-- **Infrastructure and billing analysis**: Cloud cost optimization, infrastructure audit, security review, and architecture assessment.
-- **Terraform / Infrastructure as Code**: Rewriting and importing cloud infrastructure into Terraform for sustainable, maintainable, and reviewable provisioning.
+- **AWS Platform Engineering**: Multi-region, multi-account AWS architectures — EKS, Aurora, CloudFront, and more. We design infrastructure that scales with your business, not against it.
+- **Kubernetes & GitOps**: Production EKS platforms with ArgoCD, Helm, Bottlerocket, and Graviton. We build platforms your team can own.
+- **Database Architecture**: Aurora PostgreSQL with cross-region replication, DynamoDB global tables, automated backups, and performance tuning.
+- **Observability & Security**: Prometheus, Grafana, Loki, Datadog, CloudTrail, WAF, KMS encryption, and OIDC-based CI/CD — no static credentials.
+- **Cloud Cost Optimization**: Infrastructure right-sizing, ARM64/Graviton migration, autoscaling, Savings Plans analysis, and spend visibility tooling.
+- **Terraform / Infrastructure as Code**: Hundreds of thousands of lines of production Terraform. We bring your entire cloud estate into code.
+- **Managed Operations & Oncall**: 24/7 and 8x5 oncall support arrangements. We stay involved after launch.
+- **AWS partnership with pipetail**: Consolidated AWS billing with tailored invoicing.
 
 ## Process
 
 We follow a three-phase approach:
 
 1. **Discover**: Infrastructure audit, cost analysis, security review, architecture assessment, proofs-of-concept, and technical roadmap.
-2. **Build**: Knowledge transfer, Infrastructure as Code implementation, dedicated point of contact.
-3. **Deliver**: Testing, infrastructure deployment with Terraform, ongoing support.
+2. **Build**: Infrastructure as Code from day one, short iterations, dedicated point of contact, knowledge transfer throughout.
+3. **Deliver**: Production hardening, observability setup, load testing, failover drills, go-live support, and ongoing oncall.
 
 ## Case Studies
 
-- **ShipMonk** (2022): Built an EKS platform on AWS. 24/7 oncall support, 2x business revenue, 2x engineering productivity, 15% lower infra costs.
-- **Keboola** (2022): Multi-cloud consolidation to a unified Kubernetes platform on AWS.
-- **Contember** (2023): Multi-region EKS platform. 8x5 oncall support, 3x business revenue, 2x engineering productivity, 40% lower infra costs.
+- **Momence** (2023–2025): Migrated from DigitalOcean to AWS with zero downtime. Built a fully containerized GitOps platform with EKS, Aurora PostgreSQL, ArgoCD, real-time data pipeline (Debezium + Kafka + Snowflake), and cost visibility tooling. Momence grew from Y Combinator startup to $15M+ ARR.
+- **Contember** (2023): Multi-region EKS platform with ArgoCD, Aurora PostgreSQL, and per-tenant AWS accounts. 40% lower infra costs, 3x business revenue, 2x engineering productivity.
+- **Keboola** (2022): Migration from ECS to EKS for multi-cloud support. 40% lower compute costs, deployment time from 14 days to 3 hours, 100% Infrastructure as Code.
+- **ShipMonk** (2022): EKS platform on AWS with multi-region architecture. 24/7 oncall support, 2x business revenue, 2x engineering productivity, 15% lower infra costs.
+
+## Products
+
+- **pipetail.cloud**: Customer-facing portal for AWS security compliance checks and cost optimization insights.
 
 ## Contact
 
@@ -35,6 +44,7 @@ We follow a three-phase approach:
 ## Company Details
 
 - Legal name: pipetail s.r.o.
+- Founded: 2020
 - Address: Jaurisova 515/4, 140 00, Prague 4, Czech Republic
 - Company ID (IČO): 08887951
 - VAT ID (DIČ): CZ08887951
