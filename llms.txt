@@ -1,6 +1,6 @@
 # pipetail
 
-> AWS Consulting Partner based in Prague, Czech Republic
+> AWS Services Partner based in Prague, Czech Republic
 
 pipetail is a cloud consultancy specializing in AWS, Kubernetes, Terraform, and infrastructure engineering. We help companies build, migrate, and optimize their cloud infrastructure.
 
