@@ -21,11 +21,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://pipetail.io/studies/contember/</loc>
+    <loc>https://pipetail.io/studies/momence/</loc>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://pipetail.io/studies/shipmonk/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pipetail.io/studies/keboola/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pipetail.io/studies/contember/</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
