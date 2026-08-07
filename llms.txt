@@ -19,9 +19,9 @@ pipetail builds and operates production-grade AWS infrastructure for growing Saa
 
 We follow a three-phase approach:
 
-1. **Discover**: Infrastructure audit, cost analysis, security review, architecture assessment, proofs-of-concept, and technical roadmap.
-2. **Build**: Infrastructure as Code from day one, short iterations, dedicated point of contact, knowledge transfer throughout.
-3. **Deliver**: Production hardening, observability setup, load testing, failover drills, go-live support, and ongoing oncall.
+1. **Discover**: Infrastructure audit, cost analysis, security review, architecture assessment, AWS Pricing Calculator estimate, guidance through AWS funding and credit programs (Proof-of-Concept funding up to 10% of annual run rate, plus migration and startup credits), proofs-of-concept, and technical roadmap.
+2. **Build**: Production-tested Terraform modules (EKS, ECS, Aurora, ElastiCache, networking, security), GitOps with ArgoCD, GitHub Actions CI/CD with OIDC (no static credentials), dedicated point of contact, knowledge transfer throughout.
+3. **Deliver**: Production hardening, observability with Prometheus/Grafana/Loki/Datadog, load testing, failover drills, security scans (Checkov, AWS Config), go-live support, ongoing oncall, and consolidated AWS billing through your AWS partnership with pipetail.
 
 ## Case Studies
 
